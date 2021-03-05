@@ -1,15 +1,19 @@
-# Data engineering coding challenge
+# Simple Map Reduce
 
-This is a technichal test for data engineering candidates at D2SI.
+## Setup
 
-### Terms
+Python 3.6+ is required for running the code.
 
-Candidates should do this test on their own. It is designed to be done in 2 or 3 hours but there is no hard limit.
+## Components
 
-**Please do not post your solution on GitHub.**
+The code can be found in the source folder (src/)
+<ul>
+    <li>core package: the core package includes all functions and classes.</li>
+    <li>test/: some unit tests can be found in the test folder (please note that the tests are in complete)</li>
+    <li>demo_non_mapreduce.py: you can run this script to see the performance of a non-mapreduce approach (threading)</li>
+    <li>demo_mapreduce.py: by running this script you can see the performance of a simplified mapreduce (multiprocesing)</li>
+</ul>
 
-### To be improved
+## Note
 
-We want to get this test better and better. Issues and pull requests are encouraged. This is why this challenge is commited in both TeX and PDF formats.
-
-Happy coding :-)
+This project is generated for test purposes, some parts are not perfect, but you can take them as references.
